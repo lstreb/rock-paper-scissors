@@ -1,0 +1,51 @@
+body{
+    max-width: max-content;
+    margin: auto;
+    background-color: rgb(25, 25, 25);
+    color: white;
+    font-family: Arial;
+    text-align: center;
+}
+
+button{
+    cursor: pointer;
+}
+
+.title{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 35px;
+}
+
+.result{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#image-buttons > button{
+    background-color: transparent;
+    border: 2px solid;
+    border-radius: 50%;
+    border-color: white;
+    height: 110px;
+    width: 110px;
+    margin: 10px;
+}
+
+img{
+    height: 50px;
+}
+
+.score{
+    margin-top: 30px;
+}
+
+.reset-button{
+    padding: 10px 15px;
+    margin-top: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 15px;
+}
